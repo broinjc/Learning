@@ -1,0 +1,46 @@
+
+@red: #ff0000;
+@green: #00ff00;
+@blue: #0000ff;
+@gray: #ddd;
+
+@w: 960px;
+
+.button(@color){
+   color: white;
+   padding: 5px;
+   border: 2px solid @color;
+   background: @color;
+}
+
+#add{
+	.button(@green);
+}
+
+.border(@r: 0px){
+	border-radius: @radius;
+  	-moz-border-radius: @radius;
+  	-webkit-border-radius: @radius;
+	border: @gray 2px solid;
+}
+
+body{
+    font-family:sans-serif;
+	max-width:@w;
+	margin: 0 auto;
+}
+
+
+#c {    
+    width:900px;
+    margin:20px auto;
+}
+
+h2 {
+	text-align:right;
+}
+
+li {
+	display:inline;
+	float:left;
+}

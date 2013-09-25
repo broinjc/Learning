@@ -1,17 +1,22 @@
-body{
-    font-family:sans-serif;
-    margin:0 auto;
+#add {
+  color: #000;
+  padding: 5px;
+  border: 2px solid #00ff00;
+  background: #00ff00;
 }
-
-#day{
-    width:450px;
-    padding:25px;
-    margin:25px;
-    float:left;
+body {
+  font-family: sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
 }
-.today{
-   
+#c {
+  width: 900px;
+  margin: 20px auto;
 }
-.tomorrow{
-    color: #ccc;
+h2 {
+  text-align: right;
+}
+li {
+  display: inline;
+  float: left;
 }
